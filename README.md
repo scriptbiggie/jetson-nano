@@ -25,17 +25,17 @@ $ sudo reboot
 ```
 ### Next Step
 
-If so far so good, issue opencv_4.3.0_install.sh that will automatically 
+If so far so good, issue opencv_4.5.0_install.sh that will automatically 
   - Install all the necessary dependencies,
   - download OpenCV 4.5.0, 
   - build and compile it, 
   - removing dphys-swapfile after the finalization of the compilation
 
 Keep in mind that the whole process is gonna be 2+ hours of long.
-WARNING: Please refer to opencv_4.3.0_install.sh in the case of some errors, e.g. compilation related "dependency errors"
+WARNING: Please refer to opencv_4.5.0_install.sh in the case of some errors, e.g. compilation related "dependency errors"
 
 ### The Limbo Step
-If the execution of opencv_4.3.0_install.sh completed smoothly, issue 
+If the execution of opencv_4.5.0_install.sh completed smoothly, issue 
 ```sh
 $ python3 opencv_check.py
 ```
